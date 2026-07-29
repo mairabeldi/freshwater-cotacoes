@@ -265,7 +265,7 @@
     });
     linhas.push(``, `*Total: ${fmt(total)}*`, ``, `Aguardo a confirmação, obrigado(a)!`);
 
-    document.getElementById('wppLink').href = waLink(linhas.join('\\n'));
+    document.getElementById('wppLink').href = waLink(linhas.join(String.fromCharCode(10)));
   }
 
   document.querySelectorAll('input[type="radio"]').forEach(r => r.addEventListener('change', recalc));
