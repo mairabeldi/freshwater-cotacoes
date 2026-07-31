@@ -73,7 +73,7 @@
     </div>
   </header>
 
-  <div class="instruction">Escolha o voo de ida, o voo de volta e a hospedagem — o total é atualizado na hora. Todas as tarifas aéreas incluem bagagem de mão, sem bagagem despachada.</div>
+  <div class="instruction">Escolha o voo de ida, o voo de volta e a hospedagem — o total é atualizado na hora. A hospedagem considera 2 quartos por 3 noites. Todas as tarifas aéreas incluem bagagem de mão, sem bagagem despachada.</div>
 
   <section>
     <div class="eyebrow">Voo de ida &middot; 16 Ago &middot; CWB para CGH</div>
@@ -142,49 +142,49 @@
   <div class="divider"></div>
 
   <section>
-    <div class="eyebrow">Hospedagem &middot; São Paulo &middot; 3 noites</div>
+    <div class="eyebrow">Hospedagem &middot; São Paulo &middot; 2 quartos &middot; 3 noites</div>
     <h2>Escolha o hotel</h2>
     <label class="option">
       <input type="radio" name="hotel" value="2489.31" data-label="INNSiDE By Melia SP Itaim - Innside Twin, cafe da manha" checked>
       <div class="info"><div class="title">INNSiDE By Meliá SP Itaim <span class="tag-best">RECOMENDADO</span></div><div class="sub">Innside Twin &middot; 4 estrelas &middot; café da manhã</div></div>
-      <div class="price">R$ 2.489,31<span class="unit">R$ 829,77 / noite</span></div>
+      <div class="price">R$ 2.489,31<span class="unit">R$ 1.244,66 / quarto</span></div>
     </label>
     <label class="option">
       <input type="radio" name="hotel" value="2762.54" data-label="INNSiDE By Melia SP Itaim - Innside Room Queen com varanda, cafe da manha">
       <div class="info"><div class="title">INNSiDE By Meliá SP Itaim</div><div class="sub">Innside Room Queen com varanda &middot; 4 estrelas &middot; café da manhã</div></div>
-      <div class="price">R$ 2.762,54<span class="unit">R$ 920,85 / noite</span></div>
+      <div class="price">R$ 2.762,54<span class="unit">R$ 1.381,27 / quarto</span></div>
     </label>
     <label class="option">
       <input type="radio" name="hotel" value="3129.14" data-label="Transamerica Executive Faria Lima - Duplo Standard, cafe da manha buffet">
       <div class="info"><div class="title">Transamerica Executive Faria Lima</div><div class="sub">Duplo Standard &middot; 4 estrelas &middot; café buffet</div></div>
-      <div class="price">R$ 3.129,14<span class="unit">R$ 1.043,05 / noite</span></div>
+      <div class="price">R$ 3.129,14<span class="unit">R$ 1.564,57 / quarto</span></div>
     </label>
     <label class="option">
       <input type="radio" name="hotel" value="3276.00" data-label="Blue Tree Premium Faria Lima - Luxo Premier 2 camas de solteiro, cafe da manha">
       <div class="info"><div class="title">Blue Tree Premium Faria Lima</div><div class="sub">Luxo Premier, 2 camas de solteiro &middot; 4 estrelas &middot; café da manhã &middot; + taxas</div></div>
-      <div class="price">R$ 3.276,00<span class="unit">R$ 1.040,00 / noite</span></div>
+      <div class="price">R$ 3.276,00<span class="unit">R$ 1.638,00 / quarto</span></div>
     </label>
     <label class="option">
       <input type="radio" name="hotel" value="3482.69" data-label="DoubleTree by Hilton SP Itaim - Superior King Non-Smoking, nao reembolsavel">
       <div class="info"><div class="title">DoubleTree by Hilton SP Itaim</div><div class="sub">Superior King Non-Smoking &middot; não reembolsável &middot; café da manhã</div></div>
-      <div class="price">R$ 3.482,69<span class="unit">R$ 1.160,90 / noite</span></div>
+      <div class="price">R$ 3.482,69<span class="unit">R$ 1.741,35 / quarto</span></div>
     </label>
     <label class="option">
       <input type="radio" name="hotel" value="3877.68" data-label="Melia Jardim Europa - Premium Twin, cafe da manha">
       <div class="info"><div class="title">Meliá Jardim Europa</div><div class="sub">Premium Twin &middot; 4 estrelas &middot; café da manhã</div></div>
-      <div class="price">R$ 3.877,68<span class="unit">R$ 1.292,56 / noite</span></div>
+      <div class="price">R$ 3.877,68<span class="unit">R$ 1.938,84 / quarto</span></div>
     </label>
     <label class="option">
       <input type="radio" name="hotel" value="3930.29" data-label="Melia Jardim Europa - Premium King, cafe da manha">
       <div class="info"><div class="title">Meliá Jardim Europa</div><div class="sub">Premium King &middot; 4 estrelas &middot; café da manhã</div></div>
-      <div class="price">R$ 3.930,29<span class="unit">R$ 1.310,10 / noite</span></div>
+      <div class="price">R$ 3.930,29<span class="unit">R$ 1.965,15 / quarto</span></div>
     </label>
     <label class="option decline">
       <input type="radio" name="hotel" value="0" data-label="Sem hospedagem">
       <div class="info"><div class="title">Não quero este serviço</div><div class="sub">Remover a hospedagem deste orçamento</div></div>
       <div class="price">R$ 0,00</div>
     </label>
-    <div class="row-actions"><button class="link-alt" data-secao="Hospedagem em São Paulo, 16 a 19 Ago">Escolher outras opções</button></div>
+    <div class="row-actions"><button class="link-alt" data-secao="Hospedagem em São Paulo, 2 quartos, 16 a 19 Ago">Escolher outras opções</button></div>
   </section>
 
   <div class="more">
@@ -215,7 +215,7 @@
   const PROPOSTA = "S641 - Hemera";
   const fmt = v => v.toLocaleString('pt-BR', {style:'currency', currency:'BRL'});
   const groups = ['ida','volta','hotel'];
-  const rotulos = { ida: 'Voo de ida', volta: 'Voo de volta', hotel: 'Hospedagem em São Paulo' };
+  const rotulos = { ida: 'Voo de ida', volta: 'Voo de volta', hotel: 'Hospedagem em São Paulo (2 quartos, 3 noites)' };
 
   function getSelected(){
     const sel = {};
